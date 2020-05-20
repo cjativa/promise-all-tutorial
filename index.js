@@ -78,7 +78,6 @@ const Application = () => {
     };
 
     // Execute the timing
-    console.log(`Performing timings`);
     performTimings();
 
   }, []);
@@ -91,7 +90,7 @@ const Application = () => {
       </div>
     )
   } else {
-    return "Loading";
+    return "Performing timings";
   }
 };
 
